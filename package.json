@@ -1,0 +1,11 @@
+{
+  "name": "next_in_sequence",
+  "version": "1.0.5",
+  "description": "Generates next serial combination in any alphanumeric sequence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arjun Dixit",
+  "license": "ISC"
+}
