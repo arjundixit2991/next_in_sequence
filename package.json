@@ -1,11 +1,13 @@
 {
   "name": "next_in_sequence",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Generates next serial combination in any alphanumeric sequence.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Arjun Dixit",
+  "homepage": "https://github.com/arjundixit2991/next_in_sequence#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arjundixit2991/next_in_sequence.git"
+  },
   "license": "ISC"
 }

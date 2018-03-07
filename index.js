@@ -19,9 +19,14 @@ exports.generate = (current_sequence) => {
 
   };
 
-
-  let split = current_sequence.split('');
-  generate_next_in_sequence(split,1);
-  return split.join("");
+  if(typeof current_sequence === 'number'){
+    return (current_sequence+1);
+  }else if(typeof current_sequence === 'string'){
+    let split = current_sequence.split('');
+    generate_next_in_sequence(split,1);
+    return split.join("");
+  }else{
+    return current_sequence;
+  }
 
 };
